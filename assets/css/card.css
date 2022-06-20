@@ -123,6 +123,10 @@
   margin-left: 0;
 }
 
+.wrapper .icon:last-child {
+  margin-right: 0;
+}
+
 .icons a {
   color: #ffffff;
 }
@@ -138,5 +142,17 @@
 }
 
 .selamlama {
+}
+
+@media (max-width: 576px) {
+  .wrapper .icon {
+    margin: 7px;
+  }
+}
+
+@media (min-width: 576px) {
+  .wrapper .icon {
+    margin: 10px;
+  }
 }
 

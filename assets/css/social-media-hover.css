@@ -13,7 +13,6 @@
   background-color: #ffffff;
   border-radius: 50%;
   padding: 15px;
-  margin: 10px;
   width: 50px;
   height: 50px;
   font-size: 18px;
@@ -68,7 +67,7 @@
   color: #ffffff;
 }
 
-.wrapper .mail:hover, .wrapper .mail:hover .tooltip, .wrapper .mail:hover .tooltip::before {
+.wrapper .github:hover, .wrapper .github:hover .tooltip, .wrapper .github:hover .tooltip::before {
   background-color: var(--bs-yellow);
   color: #ffffff;
 }

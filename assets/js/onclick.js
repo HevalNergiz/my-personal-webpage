@@ -5,7 +5,7 @@ $('#instagram').on('click', function(e){
 
 $('#twitter').on('click', function(e){
       e.preventDefault();
- window.open("https://twitter.com/HevalNergiz1111", '_blank').focus();
+ window.open("https://twitter.com/HevalNergizz", '_blank').focus();
     });
 
 $('#linkedin').on('click', function(e){
@@ -16,4 +16,9 @@ $('#linkedin').on('click', function(e){
 $('#mail').on('click', function(e){
       e.preventDefault();
  window.open("mailto:ben@hevalnergiz.com", '_blank').focus();
+    });
+
+$('#github').on('click', function(e){
+      e.preventDefault();
+ window.open("https://github.com/HevalNergiz", '_blank').focus();
     });

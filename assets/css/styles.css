@@ -36,21 +36,21 @@
 @media (max-width: 576px) {
   .alticizili::after {
     width: 191px;
-    height: 5px;
+    height: 8px;
     display: inline;
     background-color: var(--alticizili-renk);
     position: absolute;
     z-index: -9;
     content: "";
     left: 65px;
-    bottom: 12px;
+    bottom: 15px;
   }
 }
 
 @media (min-width: 576px) {
   .alticizili::after {
     width: 280px;
-    height: 5px;
+    height: 13px;
     display: inline;
     background-color: var(--alticizili-renk);
     position: absolute;
