@@ -1,0 +1,38 @@
+.myportfolio h1 {
+  text-align: center;
+  -webkit-text-stroke-color: #000000;
+  font-family: 'Gilroy-Heavy ☞';
+  /*mix-blend-mode: difference;*/
+  color: #f9f9f9;
+  padding: 2VW 0;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .myportfolio h1 {
+    font-size: 8.5vw;
+    -webkit-text-stroke-width: 2px;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .myportfolio h1 {
+    font-size: 11vw;
+    -webkit-text-stroke-width: 1px;
+  }
+}
+
+.myportfolio h1:hover {
+  color: #000000;
+  /*mix-blend-mode: difference;*/
+  transition-duration: .5s;
+  -webkit-text-stroke-color: #000000;
+}
+
+.you {
+  /*cursor: url("../../assets/img/wedesignyou.png"), auto!important;*/
+}
+

@@ -1,0 +1,30 @@
+body.img-1-wrap .cursor2, .cursor3 {
+  background-image: url('../../assets/img/wedesignyou.png');
+  z-index: 99999;
+  box-shadow: 0px 30px 30px -5px rgba(0,0,0,0.05);
+}
+
+body.img-2-wrap .cursor2, .cursor3 {
+  background-image: url('../../assets/img/sosyalbio.png');
+  z-index: 99999;
+  box-shadow: 0px 30px 30px -5px rgba(0,0,0,0.05);
+}
+
+body.img-3-wrap .cursor2, .cursor3 {
+  background-image: url('../../assets/img/blueberys.png');
+  z-index: 99999;
+  box-shadow: 0px 30px 30px -5px rgba(0,0,0,0.05);
+}
+
+body.img-4-wrap .cursor2, .cursor3 {
+  background-image: url('../../assets/img/acilmobil.png');
+  z-index: 99999;
+  box-shadow: 0px 30px 30px -5px rgba(0,0,0,0.05);
+}
+
+body.img-5-wrap .cursor2, .cursor3 {
+  background-image: url('../../assets/img/candyarea.png');
+  z-index: 99999;
+  box-shadow: 0px 30px 30px -5px rgba(0,0,0,0.05);
+}
+
