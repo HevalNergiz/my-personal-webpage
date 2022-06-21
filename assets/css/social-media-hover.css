@@ -102,9 +102,3 @@
   align-items: center;
 }
 
-@media (max-width: 576px) {
-  .socialmedialinks {
-    margin-left: -12px;
-  }
-}
-
