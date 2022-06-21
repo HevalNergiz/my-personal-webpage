@@ -28,12 +28,12 @@
 }
 
 .card0 {
-  background: url("../../assets/img/hevalnergizsimpsons.webp") center center no-repeat;
+  background: url("../../assets/img/hevalnergiz_cropped.webp") center center no-repeat;
   background-size: 300px;
 }
 
 .card0:hover {
-  background: url("../../assets/img/hevalnergizsimpsons.webp") left center no-repeat;
+  background: url("../../assets/img/hevalnergiz_cropped.webp") left center no-repeat;
   background-size: 600px;
 }
 
@@ -214,5 +214,9 @@
   .scroll-area.forheader {
     height: 250vh;
   }
+}
+
+.scroll-area.hover-target div {
+  text-align: center;
 }
 

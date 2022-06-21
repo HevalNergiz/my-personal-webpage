@@ -22,6 +22,7 @@
   .myportfolio .hover-target h1 {
     font-size: 11vw;
     -webkit-text-stroke-width: 1px;
+    margin-bottom: 1rem;
   }
 }
 

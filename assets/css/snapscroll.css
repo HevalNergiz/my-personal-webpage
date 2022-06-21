@@ -40,15 +40,16 @@
 }
 
 .preview-image-mobile {
-  position: absolute;
-  left: 5%;
-  top: 32vh;
-  width: 90%;
+  /*position: absolute;*/
+  /*left: 5%;*/
+  /*top: 32vh;*/
+  /*width: 90%;*/
   z-index: -9;
-  border-style: solid;
-  border-radius: 0px;
-  border-width: 2px;
-  border-color: rgba(0,0,0,0.9);
+  /*border-style: solid;*/
+  border-radius: 0 0 5px 5px;
+  border-width: 0;
+  /*border-color: rgb(0,0,0);*/
+  margin: auto;
 }
 
 @media (min-width: 576px) {
