@@ -28,12 +28,12 @@
 }
 
 .card0 {
-  background: url("../../assets/img/hevalnergizsimpsons.png") center center no-repeat;
+  background: url("../../assets/img/hevalnergizsimpsons.webp") center center no-repeat;
   background-size: 300px;
 }
 
 .card0:hover {
-  background: url("../../assets/img/hevalnergizsimpsons.png") left center no-repeat;
+  background: url("../../assets/img/hevalnergizsimpsons.webp") left center no-repeat;
   background-size: 600px;
 }
 
@@ -207,6 +207,12 @@
 @media (max-width: 576px) {
   .masaustundegoster {
     display: none!important;
+  }
+}
+
+@media (max-width: 768px) {
+  .scroll-area.forheader {
+    height: 200vh;
   }
 }
 

@@ -58,7 +58,6 @@
 }
 
 .scroll-area.forheader {
-  height: 220vh;
   display: flex;
   align-items: start;
   justify-content: start;
