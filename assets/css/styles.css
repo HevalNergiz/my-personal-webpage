@@ -37,7 +37,7 @@
   .alticizili::after {
     width: 189px;
     height: 8px;
-    display: inline;
+    display: none;
     background-color: var(--alticizili-renk);
     position: absolute;
     z-index: -9;
@@ -51,7 +51,7 @@
   .alticizili::after {
     width: 280px;
     height: 10px;
-    display: inline;
+    display: none;
     background-color: var(--alticizili-renk);
     position: absolute;
     z-index: -9;

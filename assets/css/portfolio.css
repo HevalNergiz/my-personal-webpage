@@ -1,33 +1,33 @@
-.myportfolio .hover-target {
+.myportfolio .hover-target h1 {
   text-align: center;
   -webkit-text-stroke-color: #000000;
   font-family: 'Gilroy-Heavy ☞';
   /*mix-blend-mode: difference;*/
   color: #f9f9f9;
-  padding: 2VW 0;
   margin: 0;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
-  .myportfolio .hover-target {
+  .myportfolio .hover-target h1 {
     font-size: 8.5vw;
     -webkit-text-stroke-width: 2px;
-    height: 100vh;
-    display: grid;
+    /*height: 100vh;*/
+    /*display: grid;*/
     align-items: center;
   }
 }
 
 @media (max-width: 768px) {
-  .myportfolio .hover-target {
+  .myportfolio .hover-target h1 {
     font-size: 11vw;
     -webkit-text-stroke-width: 1px;
   }
 }
 
-.myportfolio .hover-target:hover {
+.myportfolio .hover-target:hover h1 {
   color: #000000;
-  /*mix-blend-mode: difference;*/
+  mix-blend-mode: difference;
   transition-duration: .5s;
   -webkit-text-stroke-color: #000000;
 }

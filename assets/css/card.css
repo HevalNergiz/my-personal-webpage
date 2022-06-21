@@ -137,7 +137,7 @@
 
 @media (min-width: 992px) {
   .header {
-    /*min-height: 100vh;*/
+    max-height: 100vh;
   }
 }
 
@@ -212,7 +212,7 @@
 
 @media (max-width: 768px) {
   .scroll-area.forheader {
-    height: 200vh;
+    height: 250vh;
   }
 }
 

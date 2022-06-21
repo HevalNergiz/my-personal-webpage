@@ -118,8 +118,8 @@ body.logo-wrap .cursor2.hover, body.logo-wrap .cursor3.hover {
   position: relative;
   /*display: inline-block;*/
   text-decoration: none;
-  /*color: var(--purple);*/
   transition: color 250ms ease;
+  width: 100%;
 }
 
 .hover-target:before {
