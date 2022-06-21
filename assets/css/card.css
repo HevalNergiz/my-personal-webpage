@@ -198,3 +198,15 @@
   color: #000000;
 }
 
+@media (min-width: 576px) {
+  .mobildegoster {
+    display: none!important;
+  }
+}
+
+@media (max-width: 576px) {
+  .masaustundegoster {
+    display: none!important;
+  }
+}
+

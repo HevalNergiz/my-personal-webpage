@@ -35,14 +35,14 @@
 
 @media (max-width: 576px) {
   .alticizili::after {
-    width: 191px;
+    width: 189px;
     height: 8px;
     display: inline;
     background-color: var(--alticizili-renk);
     position: absolute;
     z-index: -9;
     content: "";
-    left: 65px;
+    left: 66px;
     bottom: 15px;
   }
 }
@@ -50,7 +50,7 @@
 @media (min-width: 576px) {
   .alticizili::after {
     width: 280px;
-    height: 13px;
+    height: 10px;
     display: inline;
     background-color: var(--alticizili-renk);
     position: absolute;
@@ -137,5 +137,11 @@
 .portfoliodiv {
   padding: 3rem 0;
   background-color: #f9f9f9;
+}
+
+@media (max-width: 768px) {
+  .cursror, .cursor2, .cursor3 {
+    display: none;
+  }
 }
 

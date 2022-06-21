@@ -94,3 +94,51 @@ document.addEventListener('DOMContentLoaded', function () {
 	        bodychange.classList.remove('img-5-wrap');
 	    })
 	})
+
+document.addEventListener('DOMContentLoaded', function () {
+	    var hoverLink = document.querySelector('.img-6');
+	    var bodychange = document.querySelector('body');
+
+	    hoverLink.addEventListener('mouseenter', function (e) {
+	        bodychange.classList.add('img-6-wrap');
+	    });
+	    hoverLink.addEventListener('mouseleave', function () {
+	        bodychange.classList.remove('img-6-wrap');
+	    })
+	})
+
+document.addEventListener('DOMContentLoaded', function () {
+	    var hoverLink = document.querySelector('.img-7');
+	    var bodychange = document.querySelector('body');
+
+	    hoverLink.addEventListener('mouseenter', function (e) {
+	        bodychange.classList.add('img-7-wrap');
+	    });
+	    hoverLink.addEventListener('mouseleave', function () {
+	        bodychange.classList.remove('img-7-wrap');
+	    })
+	})
+
+document.addEventListener('DOMContentLoaded', function () {
+	    var hoverLink = document.querySelector('.img-8');
+	    var bodychange = document.querySelector('body');
+
+	    hoverLink.addEventListener('mouseenter', function (e) {
+	        bodychange.classList.add('img-8-wrap');
+	    });
+	    hoverLink.addEventListener('mouseleave', function () {
+	        bodychange.classList.remove('img-8-wrap');
+	    })
+	})
+
+document.addEventListener('DOMContentLoaded', function () {
+	    var hoverLink = document.querySelector('.img-9');
+	    var bodychange = document.querySelector('body');
+
+	    hoverLink.addEventListener('mouseenter', function (e) {
+	        bodychange.classList.add('img-9-wrap');
+	    });
+	    hoverLink.addEventListener('mouseleave', function () {
+	        bodychange.classList.remove('img-9-wrap');
+	    })
+	})

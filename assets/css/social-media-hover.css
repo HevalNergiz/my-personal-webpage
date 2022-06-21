@@ -77,6 +77,11 @@
   color: #ffffff;
 }
 
+.wrapper .mail:hover, .wrapper .mail:hover .tooltip, .wrapper .mail:hover .tooltip::before {
+  background-color: #ffaf00;
+  color: #ffffff;
+}
+
 .wrapper .twitter:hover, .wrapper .twitter:hover .tooltip, .wrapper .twitter:hover .tooltip::before {
   background-color: #46c1f6;
   color: #ffffff;
