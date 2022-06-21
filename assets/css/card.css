@@ -156,3 +156,45 @@
   }
 }
 
+@media (min-width: 576px) {
+  .cvgoruntule::after {
+    width: 134px;
+    height: 5px;
+    display: inline;
+    background-color: var(--alticizili-renk);
+    position: absolute;
+    z-index: -9;
+    content: "";
+    left: 0;
+    bottom: 6px;
+  }
+}
+
+@media (max-width: 576px) {
+  .cvgoruntule::after {
+    width: 134px;
+    height: 5px;
+    display: inline;
+    background-color: var(--alticizili-renk);
+    position: absolute;
+    z-index: -9;
+    content: "";
+    left: 0;
+    bottom: 6px;
+  }
+}
+
+.cvgoruntule {
+  position: relative;
+}
+
+.cvgoruntulelink {
+  text-decoration: none;
+  font-weight: 800;
+  color: #212529;
+}
+
+.cvgoruntulelink:hover {
+  color: #000000;
+}
+
