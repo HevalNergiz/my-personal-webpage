@@ -190,8 +190,8 @@
 
 .cvgoruntulelink {
   text-decoration: none;
-  font-weight: 800;
   color: #212529;
+  font-family: 'Gilroy-Bold ☞';
 }
 
 .cvgoruntulelink:hover {
