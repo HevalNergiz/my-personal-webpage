@@ -216,7 +216,7 @@
   }
 }
 
-@media (max-height: 600px) {
+@media (max-height: 668px) {
   .promaxdegoster {
     display: none!important;
   }
@@ -240,5 +240,11 @@
 
 .socialmedialinks {
   /*margin-left: calc(50% - 150px)!important;*/
+}
+
+@media (min-height: 668px) {
+  .minidegoster {
+    display: none!important;
+  }
 }
 
