@@ -194,7 +194,7 @@
 
 @media (max-width: 768px) {
   .minidegoster .card0.fotom {
-    margin-top: -120px;
+    /*margin-top: -120px;*/
   }
 }
 
@@ -222,10 +222,8 @@
   }
 }
 
-@media (max-width: 768px) {
-  .scroll-area.forheader.promaxdegoster {
-    height: 200vh;
-  }
+.scroll-area.forheader.promaxdegoster {
+  height: 150vh;
 }
 
 @media (max-width: 768px) {
