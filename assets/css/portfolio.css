@@ -15,6 +15,7 @@
   .myportfolio .hover-target h1 {
     text-align: center;
     /*-webkit-text-stroke-color: #000000;*/
+    -webkit-text-stroke-width: 0;
     font-family: 'Gilroy-Heavy ☞';
     /*mix-blend-mode: difference;*/
     color: #000000;
