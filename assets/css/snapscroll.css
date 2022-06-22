@@ -1,0 +1,67 @@
+.scroll-container {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scroll-area {
+  scroll-snap-align: center;
+  position: relative;
+}
+
+.scroll-container, .scroll-area {
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .scroll-area {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 20vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .scroll-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.scroll-container, .scroll-area {
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.preview-image-mobile {
+  /*position: absolute;*/
+  /*left: 5%;*/
+  /*top: 32vh;*/
+  /*width: 90%;*/
+  z-index: -9;
+  /*border-style: solid;*/
+  border-radius: 0 0 5px 5px;
+  border-width: 0;
+  /*border-color: rgb(0,0,0);*/
+  margin: auto;
+}
+
+@media (min-width: 576px) {
+  .preview-image-mobile {
+    display: none;
+  }
+}
+
+.scroll-area.forheader {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  padding-top: 0;
+}
+

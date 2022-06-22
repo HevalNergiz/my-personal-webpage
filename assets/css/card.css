@@ -1,0 +1,222 @@
+.fotom .border {
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+  border: none!important;
+}
+
+.border:hover {
+  border: 1px solid #fff;
+}
+
+.card {
+  height: 379px;
+  width: 300px;
+  background: #808080;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  /*box-shadow: 0 70px 63px -60px #000;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0px 0px, 8px 8px 17px rgb(173,173,173), rgb(227, 227, 227) 0.0173269px 0.0173269px 0px, rgb(228, 228, 228) 1.01733px 1.01733px 0px, rgb(229, 229, 229) 2.01733px 2.01733px 0px, rgb(229, 229, 229) 3.01733px 3.01733px 0px, rgb(230, 230, 230) 4.01733px 4.01733px 0px, rgb(231, 231, 231) 5.01733px 5.01733px 0px, rgb(231, 231, 231) 6.01733px 6.01733px 0px, rgb(232, 232, 232) 7.01733px 7.01733px 0px, rgb(233, 233, 233) 8.01733px 8.01733px 0px, rgb(234, 234, 234) 9.01733px 9.01733px 0px, rgb(234, 234, 234) 10.0173px 10.0173px 0px, rgb(235, 235, 235) 11.0173px 11.0173px 0px, rgb(236, 236, 236) 12.0173px 12.0173px 0px, rgb(236, 236, 236) 13.0173px 13.0173px 0px, rgb(237, 237, 237) 14.0173px 14.0173px 0px, rgb(238, 238, 238) 15.0173px 15.0173px 0px, rgb(238, 238, 238) 16.0173px 16.0173px 0px, rgb(239, 239, 239) 17.0173px 17.0173px 0px, rgb(240, 240, 240) 18.0173px 18.0173px 0px, rgb(241, 241, 241) 19.0173px 19.0173px 0px, rgb(241, 241, 241) 20.0173px 20.0173px 0px, rgb(242, 242, 242) 21.0173px 21.0173px 0px, rgb(243, 243, 243) 22.0173px 22.0173px 0px, rgb(243, 243, 243) 23.0173px 23.0173px 0px, rgb(244, 244, 244) 24.0173px 24.0173px 0px, rgb(245, 245, 245) 25.0173px 25.0173px 0px, rgb(245, 245, 245) 26.0173px 26.0173px 0px, rgb(246, 246, 246) 27.0173px 27.0173px 0px, rgb(247, 247, 247) 28.0173px 28.0173px 0px, rgb(248, 248, 248) 29.0173px 29.0173px 0px, rgb(248, 248, 248) 30.0173px 30.0173px 0px, rgb(249, 249, 249) 31.0173px 31.0173px 0px, rgb(250, 250, 250) 32.0173px 32.0173px 0px, rgb(250, 250, 250) 33.0173px 33.0173px 0px, rgb(251, 251, 251) 34.0173px 34.0173px 0px, rgb(252, 252, 252) 35.0173px 35.0173px 0px, rgb(252, 252, 252) 36.0173px 36.0173px 0px, rgb(253, 253, 253) 37.0173px 37.0173px 0px, rgb(254, 254, 254) 38.0173px 38.0173px 0px, rgb(255, 255, 255) 39.0173px 39.0173px 0px;
+}
+
+.card0 {
+  background: url("../../assets/img/hevalnergizsimpsons.webp") center center no-repeat;
+  background-size: 300px;
+}
+
+.card0:hover {
+  background: url("../../assets/img/hevalnergizsimpsons.webp") left center no-repeat;
+  background-size: 600px;
+}
+
+.card0:hover h2 {
+  opacity: 1;
+}
+
+.card0:hover .fa, .card0:hover svg, .card0:hover i {
+  opacity: 1;
+}
+
+.card1 {
+  background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg") center center no-repeat;
+  background-size: 300px;
+}
+
+.card1:hover {
+  background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg") left center no-repeat;
+  background-size: 600px;
+}
+
+.card1:hover h2 {
+  opacity: 1;
+}
+
+.card1:hover .fa {
+  opacity: 1;
+}
+
+.card2 {
+  background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") center center no-repeat;
+  background-size: 300px;
+}
+
+.card2:hover {
+  background: url("https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg") left center no-repeat;
+  background-size: 600px;
+}
+
+.card2:hover h2 {
+  opacity: 1;
+}
+
+.card2:hover .fa {
+  opacity: 1;
+}
+
+.fotom h2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.fotom svg, .fotom .fa, .fotom i {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.fotom .icons {
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+  height: 130px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (max-width: 992px) {
+  .selamlama {
+    width: 300px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .selamlama {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+.wrapper .icon:first-child {
+  margin-left: 0;
+}
+
+.wrapper .icon:last-child {
+  margin-right: 0;
+}
+
+.icons a {
+  color: #ffffff;
+}
+
+.text-nowrap .wobble-vertical {
+  z-index: 999999999;
+}
+
+@media (min-width: 992px) {
+  .header {
+    max-height: 100vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .wrapper .icon {
+    margin: 5px;
+  }
+}
+
+@media (min-width: 576px) {
+  .wrapper .icon {
+    margin: 10px;
+  }
+}
+
+@media (min-width: 576px) {
+  .cvgoruntule::after {
+    width: 134px;
+    height: 5px;
+    display: inline;
+    background-color: var(--alticizili-renk);
+    position: absolute;
+    z-index: -9;
+    content: "";
+    left: 0;
+    bottom: 6px;
+  }
+}
+
+@media (max-width: 576px) {
+  .cvgoruntule::after {
+    width: 134px;
+    height: 5px;
+    display: inline;
+    background-color: var(--alticizili-renk);
+    position: absolute;
+    z-index: -9;
+    content: "";
+    left: 0;
+    bottom: 6px;
+  }
+}
+
+.cvgoruntule {
+  position: relative;
+}
+
+.cvgoruntulelink {
+  text-decoration: none;
+  color: #212529;
+  font-family: 'Gilroy-Bold ☞';
+}
+
+.cvgoruntulelink:hover {
+  color: #000000;
+}
+
+@media (min-width: 576px) {
+  .mobildegoster {
+    display: none!important;
+  }
+}
+
+@media (max-width: 576px) {
+  .masaustundegoster {
+    display: none!important;
+  }
+}
+
+@media (max-width: 768px) {
+  .scroll-area.forheader {
+    /*height: 200vh;*/
+  }
+}
+
+.scroll-area.hover-target div {
+  text-align: center;
+}
+

@@ -1,0 +1,75 @@
+.icon-scroll, .icon-scroll:before {
+  position: absolute;
+  left: 50%;
+}
+
+@media (min-width: 768px) {
+  .icon-scroll {
+    width: 2rem;
+    height: 3.5rem;
+    margin-left: -20px;
+    margin-top: -35px;
+    border: 2px solid rgb(0,0,0);
+    border-radius: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .icon-scroll {
+    width: 1.5rem;
+    height: 2.5rem;
+    margin-left: -20px;
+    bottom: -25px;
+    margin-top: -35px;
+    border: 2px solid rgb(0,0,0);
+    border-radius: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .icon-scroll {
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) {
+  .icon-scroll:before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: rgb(0,0,0);
+    margin-left: -4px;
+    top: 8px;
+    border-radius: 4px;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: scroll;
+  }
+}
+
+@media (max-width: 767px) {
+  .icon-scroll:before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: rgb(0,0,0);
+    margin-left: -2.7px;
+    top: 8px;
+    border-radius: 4px;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: scroll;
+    mix-blend-mode: difference;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(23px);
+  }
+}
+
