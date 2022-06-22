@@ -175,3 +175,70 @@
   }
 }
 
+.fotolucol {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.minidegoster .fotolucol {
+  height: calc(100vh - 77px);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding-bottom: 0;
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .minidegoster .card0.fotom {
+    margin-top: -120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hakkimdayazim {
+    font-family: 'Gilroy-Light ☞';
+    /*display: initial;*/
+    font-size: 1.1rem;
+    line-height: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hakkimdayazim {
+    font-family: 'Gilroy-Light ☞';
+    /*display: initial;*/
+    font-size: 1.1rem;
+    line-height: 35px;
+  }
+}
+
+@media (max-height: 600px) {
+  .promaxdegoster {
+    display: none!important;
+  }
+}
+
+@media (max-width: 768px) {
+  .scroll-area.forheader.promaxdegoster {
+    height: 200vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .promaxdegoster .selamlama {
+    padding-top: 3rem;
+  }
+}
+
+.minidegoster .socialmedialinks {
+  padding-bottom: 2.5rem;
+}
+
+.socialmedialinks {
+  /*margin-left: calc(50% - 150px)!important;*/
+}
+
