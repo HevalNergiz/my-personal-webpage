@@ -169,3 +169,9 @@
   }
 }
 
+@media (max-width: 768px) {
+  .ismim {
+    margin-bottom: -4px;
+  }
+}
+
