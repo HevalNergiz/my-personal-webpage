@@ -1,14 +1,15 @@
 import React from "react";
-import Image from "react-image-webp";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 const Profile = () => {
   return (
     <div className="d-flex gap-md-4 gap-3 flex-column flex-sm-row">
-      <Image
+      <LazyLoadImage
         className="rounded-circle black-and-white object-fit-cover"
         src={require("../assets/img/IMG_4494.webp")}
         webp={require("../assets/img/IMG_4494.webp")}
         width={120}
         height={120}
+        alt="heval nergiz profile"
       />
 
       <div className="d-flex gap-1 flex-column justify-content-center">

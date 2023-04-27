@@ -8,8 +8,8 @@ const About = () => {
         <br />
         <br />
         As a <strong class="fw-light">Front-End Developer</strong>&nbsp;and{" "}
-        <strong className="fw-light">User Interface Designer</strong>,<br />I
-        develop aesthetic and powerful things.
+        <strong className="fw-light">User Interface Designer</strong>, I develop
+        aesthetic and powerful things.
         <br />
         <br />I love to take part in beautiful projects with the idea of
         ​​making the internet a better place.

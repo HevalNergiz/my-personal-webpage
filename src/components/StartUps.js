@@ -14,7 +14,7 @@ const StartUps = () => {
             link="https://webappgenie.com"
             title="Genie"
             description="AI based custom web application generator with OpenAI API"
-            badges={["React", "ChatGPT", "Bootstrap", "HTML", "CSS"]}
+            badges={["React", "ChatGPT", "Bootstrap"]}
           ></ProjectCard>
         </Col>
         <Col md={6}>
@@ -23,7 +23,7 @@ const StartUps = () => {
             link="https://inderse.com"
             title="Inderse"
             description="An artificial intelligence-based product ecosystem that makes homes smart"
-            badges={["IOT", "AI", "ML", "Cloud"]}
+            badges={["IOT"]}
           ></ProjectCard>
         </Col>
       </Row>
