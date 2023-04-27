@@ -11,7 +11,12 @@ const ProjectCard = (props) => {
       <div className="my-card h-100">
         <div className="my-card-body">
           <div className="d-grid gap-3 mb-3">
-            <LazyLoadImage src={props.path} alt="Inderse Logo" height="50" />
+            <LazyLoadImage
+              src={props.path}
+              alt={props.alt}
+              height="50"
+              width={props.width}
+            />
             <h5 className="mb-0 fw-bold">{props.title}</h5>
             <p className="fw-light">{props.description}</p>
           </div>

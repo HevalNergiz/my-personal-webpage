@@ -15,6 +15,8 @@ const StartUps = () => {
             title="Genie"
             description="AI based custom web application generator with OpenAI API"
             badges={["React", "ChatGPT", "Bootstrap"]}
+            width="73.01"
+            alt="Genie Logo"
           ></ProjectCard>
         </Col>
         <Col md={6}>
@@ -24,6 +26,8 @@ const StartUps = () => {
             title="Inderse"
             description="An artificial intelligence-based product ecosystem that makes homes smart"
             badges={["IOT"]}
+            width="36.82"
+            alt="Inderse Logo"
           ></ProjectCard>
         </Col>
       </Row>
