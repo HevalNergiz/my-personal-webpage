@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import InderseLogo from "../assets/img/inderse-logo.png";
-import GenieLogo from "../assets/img/genie-logo.svg";
+import GenieLogo from "../assets/img/genie-logo.png";
 import ProjectCard from "./ProjectCard";
 const StartUps = () => {
   return (
