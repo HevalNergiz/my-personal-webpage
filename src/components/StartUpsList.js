@@ -17,7 +17,7 @@ const StartUpsList = () => {
 
               <IconArrowUpRight className="ms-2" size={16}></IconArrowUpRight>
             </span>
-            <span className="badge bg-light">UI & Frontend Developer</span>
+            <span className="badge bg-light">Lead Designer & UI Developer</span>
           </a>
         </li>
         <li>
