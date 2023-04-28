@@ -17,7 +17,7 @@ const ProjectCard = (props) => {
               height="50"
               width={props.width}
             />
-            <h5 className="mb-0 fw-bold">{props.title}</h5>
+            <h4 className="mb-0 fw-bold h5">{props.title}</h4>
             <p className="fw-light">{props.description}</p>
           </div>
 
