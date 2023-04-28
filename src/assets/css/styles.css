@@ -34,6 +34,18 @@
   background-color: #000;
 }
 
+a.text-muted:hover{
+  color: #000!important;
+}
+
+a.text-muted:hover svg{
+  transform: translate(2px , -2px);
+}
+
+a.text-muted{
+  transition-duration: .2s;
+}
+
 .my-card{
   padding: 2rem;
   border-radius:1.5rem;
