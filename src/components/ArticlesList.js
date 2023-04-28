@@ -1,6 +1,7 @@
 import React from "react";
 import post from "../database/postCardData";
 import PostCard from "./PostCard";
+//key prop for li
 
 const ArticlesList = () => {
   return (
@@ -10,7 +11,7 @@ const ArticlesList = () => {
         {post.map((p) => {
           return (
             <ul className="mb-0 fw-light d-grid gap-3 partof-list ps-0 ps-md-4">
-              <li>
+              <li key={p.id}>
                 <PostCard link={p.link} title={p.title} />
               </li>
             </ul>
