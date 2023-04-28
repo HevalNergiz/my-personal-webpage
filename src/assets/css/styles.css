@@ -13,6 +13,13 @@
     }
   }
 
+.blog-card{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
 
 /*only for higher than tablet*/
 @media (min-width: 768px) {
@@ -130,6 +137,20 @@ flex-direction: column;
   .text-muted {
     --bs-text-opacity: 1;
     color: #575e65!important;
+
+  }
+
+  .post-wrapper p{
+    color: #575e65;
+  }
+
+  .post-wrapper img{
+    width: 100%;
+    height: auto;
+  }
+
+  .post-wrapper h1{
+    font-weight: bold;
   }
   
   .text-muted .border-dark {

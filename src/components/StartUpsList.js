@@ -1,4 +1,5 @@
 import React from "react";
+import { IconArrowUpRight } from "@tabler/icons-react";
 const StartUpsList = () => {
   return (
     <div>
@@ -11,25 +12,10 @@ const StartUpsList = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <span className="d-inline-flex gap-2 align-items-center">
+            <span className="">
               <span className="border-bottom border-dark">GoAction Labs</span>
 
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="1em"
-                height="1em"
-                viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
-                fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                className="icon icon-tabler icon-tabler-arrow-up-right"
-              >
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <line x1="17" y1="7" x2="7" y2="17"></line>
-                <polyline points="8 7 17 7 17 16"></polyline>
-              </svg>
+              <IconArrowUpRight className="ms-2" size={16}></IconArrowUpRight>
             </span>
             <span className="badge bg-light">UI & Frontend Developer</span>
           </a>
@@ -49,11 +35,11 @@ const StartUpsList = () => {
                 width="1em"
                 height="1em"
                 viewBox="0 0 24 24"
-                stroke-width="2"
+                strokeWidth="2"
                 stroke="currentColor"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 className="icon icon-tabler icon-tabler-arrow-up-right"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
