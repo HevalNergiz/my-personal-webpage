@@ -14,7 +14,7 @@ const StartUps = () => {
             link="https://webappgenie.com"
             title="Genie"
             description="AI based custom web application generator with OpenAI API"
-            badges={["React", "ChatGPT", "Bootstrap"]}
+            badges={["React", "GPT", "Bootstrap"]}
             width="73.01"
             alt="Genie Logo"
           ></ProjectCard>
