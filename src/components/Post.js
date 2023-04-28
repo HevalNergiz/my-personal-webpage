@@ -17,7 +17,7 @@ const Post = () => {
         .then((response) => setPostcontent(response))
         .catch((err) => console.log(err))
     );
-  }, []);
+  }, [currentBlog]);
 
   return (
     <div>

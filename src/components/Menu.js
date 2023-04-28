@@ -40,6 +40,7 @@ const Menu = () => {
       </NavLink>
       <span className="vr-hr" />
       <button
+        aria-label="Menu Button"
         id="menutoggle"
         className="menu-toggle d-sm-none"
         type="button"
