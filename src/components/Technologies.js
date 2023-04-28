@@ -12,7 +12,7 @@ import {
 const Technologies = () => {
   return (
     <div>
-      <h5 className="mb-4">Technologies 👾</h5>
+      <h3 className="mb-4 h5">Technologies 👾</h3>
       <div className="languages-tools-mother">
         <span className="badge rounded-pill bg-light">
           <IconBrandHtml5 stroke={1.5} size={18}></IconBrandHtml5>

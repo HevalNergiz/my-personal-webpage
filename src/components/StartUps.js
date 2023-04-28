@@ -6,7 +6,7 @@ import ProjectCard from "./ProjectCard";
 const StartUps = () => {
   return (
     <div>
-      <h5 className="mb-4">I'm co-founder of the...</h5>
+      <h3 className="mb-4 h5">I'm co-founder of the...</h3>
       <Row className=" gy-4 gx-4 mb-4">
         <Col md={6}>
           <ProjectCard

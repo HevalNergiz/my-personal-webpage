@@ -3,7 +3,7 @@ import { IconArrowUpRight } from "@tabler/icons-react";
 const StartUpsList = () => {
   return (
     <div>
-      <h5 className="mb-4">I'm part of the...</h5>
+      <h3 className="mb-4 h5">I'm part of the...</h3>
       <ul className="mb-0 fw-light d-grid gap-3 partof-list ps-0 ps-md-4">
         <li>
           <a

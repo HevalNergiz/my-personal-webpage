@@ -5,7 +5,7 @@ import PostCard from "./PostCard";
 const ArticlesList = () => {
   return (
     <div>
-      <h5 className="mb-4">My writings ✍️</h5>
+      <h3 className="mb-4 h5">My writings ✍️</h3>
       <div className="d-grid gap-3">
         {post.map((p) => {
           return (
