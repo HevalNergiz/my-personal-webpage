@@ -27,7 +27,7 @@ const Technologies = () => {
           JavaScript
         </span>
         <span className="badge rounded-pill bg-light">
-          <IconBrandReact stroke={1.5} size={18}></IconBrandReact>
+          <IconBrandReact stroke={1.25} size={18}></IconBrandReact>
           ReactJS
         </span>
         <span className="badge rounded-pill bg-light">
