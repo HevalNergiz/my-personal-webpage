@@ -2,7 +2,7 @@ import React from "react";
 const About = () => {
   return (
     <div>
-      <h5 className="mb-4">About me 👋</h5>
+      <h3 className="mb-4 h5">About me 👋</h3>
       <p className="fw-light text-muted">
         I'm Heval (Meaning "Friend" in English).
         <br />
