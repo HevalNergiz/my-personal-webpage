@@ -9,19 +9,23 @@ import Menu from "../components/Menu";
 import Wrapper from "../components/Wrapper";
 import ArticlesList from "../components/ArticlesList";
 import "../assets/css/styles.css";
+import BgImage from "../components/BgImage";
 
 function Home() {
   return (
-    <Wrapper>
-      <Profile></Profile>
-      <About></About>
-      <Technologies></Technologies>
-      <StartUps></StartUps>
-      <StartUpsList></StartUpsList>
-      <ArticlesList></ArticlesList>
-      <Footer></Footer>
-      <Menu></Menu>
-    </Wrapper>
+    <>
+      <Wrapper>
+        <Profile></Profile>
+        <About></About>
+        <Technologies></Technologies>
+        <StartUps></StartUps>
+        <StartUpsList></StartUpsList>
+        <ArticlesList></ArticlesList>
+        <Footer></Footer>
+        <Menu></Menu>
+      </Wrapper>
+      <BgImage alt="ephesus" width="100%" height="auto"></BgImage>
+    </>
   );
 }
 
