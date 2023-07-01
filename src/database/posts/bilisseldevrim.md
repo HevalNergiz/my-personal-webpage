@@ -14,6 +14,15 @@ Dinler, tanrılar, milliyetçilik ve benzeri olgular, insanların birbiriyle ded
 
 Meyve Şirketi örneğinde olduğu gibi, şirketler de insanların ortak bir şekilde onların varlığına inanmaları sayesinde var olurlar. Şirketlerin varlığı, bizim hayal gücümüzün bir ürünüdür ve somut bir varlık değildir.
 
+> \*Dedikodu, birey sayısı yüksek popülasyonlarda iş birliği yapabilmenin temelini oluşturan bir beceridir. Homo sapiens'in yaklaşık 70.000 yıl önce geliştirdiği dil becerisi onların dedikodu yapabilmesini sağladı; güvenenebilecekleri bireyleri öğrenmelerini sağlayan bilgiler insanların daha sıkı ve karmaşık işbirliği kurabilmesini sağladı.
+
+> \*\*Bu sayı Dunbar sayısı olarak bilinir. Bu sayı normal bir insan için sağlıklı bir çevrenin ortalama olarak azami 150 kişi kadar olduğunu öne sürer.
+
+Şimdi gelin isterseniz şirketler üzerinden bir örnekle bu konuyu daha iyi kavrayalım.
+Örneğin Meyve Şirketi insanların ortak bir şekilde bu şirketin var olduğunu kabul etmesiyle var olur. Meyve Şirketi insanların kollektif hayal gücünün eseridir. Ayrıca bu şirketin hukuki hakları vardır. Yani vergi öder, mal ve mülk sahibi olabilir, vb. Bununla birlikte fiziksel olarak varlığı somut değildir. Öyle ki bu Meyve Şirketinin ürünleri de bu şirketin ta kendisi değildir. Şirketi onun üretimi olan ürünler var etmeyeceğinden şirketin üretimi olan bütün ürünleri yok etsek dahi şirket varlığını sürdürmeye devam edecektir. Peki Meyve Şirketini bünyesinde çalışan insanlar mı oluşturuyor? Bu sorunun cevabı da "hayır" olacaktır. Şirketin kurucusu dahil bütün çalışanlar bir anda hayatını kaybetse, şirkete ait bütün maddi nesneleri yok edilse sahip olduğu fabrikalar yıkılsa dahi şirket varlığını sürdürecektir; borç almaya da devam edebilecektir yeni fabrikalar satın alıp yeni çalışanlar da bünyesine katabilecektir. Ancak Meyve Şirketinde bu tarz hiçbir vaka gerçekleşmese bile bir mahkeme kararıyla şirketin hayatı son bulabilecektir...
+
+Var olduklarını tartışmasız kabul ettiğimiz olgular, dinler, şirketler, hükümetler… Aslında hepsi bizim onlara toplu bir şekilde var olduklarına inanabilmemizle var olan; hayal gücümüzün, devasa popülasyonlarla iş birliği yapabilmemizi sağlayarak bizi hayatta tutan ürünleri…
+
 ### Kaynaklar
 
 - Yuval Noah Harrari'nin "Sapiens" kitabı
