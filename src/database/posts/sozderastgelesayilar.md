@@ -1,6 +1,6 @@
 # Rastgeleliğin İllüzyonu: Sözde Rastgele Sayılar
 
-Belki bir zar oyununda yer almışsınızdır ya da rastgele bir değer üreten bir programla karşılaşmışsınızdır. Peki, girdi ve çıktıları kesin olan bir sistemden gerçekten rastgele bir sayı elde edebilir miyiz? Ne yazık ki hayır. Elde ettiğimiz bu çıktılar aslında sadece rastgele gibi görünen ve genellikle "pseudo-rastgele" (yani "sözde rastgele") olarak adlandırılan sayılardır.
+Belki Siri'den zar atmasını istemişsinizdir ya da rastgele bir değer üreten bir programla karşılaşmışsınızdır. Peki, girdi ve çıktıları kesin olan bir sistemden gerçekten rastgele bir sayı elde edebilir miyiz? Ne yazık ki hayır. Elde ettiğimiz bu çıktılar aslında sadece rastgele gibi görünen ve genellikle "pseudo-rastgele" (yani "sözde rastgele") olarak adlandırılan sayılardır.
 
 Pseudo-rastgele sayı üreteci (PRNG), belirli bir "tohum" (seed) değeri alır ve bu tohumdan yola çıkarak bir sayı dizisi oluşturur. Aynı tohum kullanıldığında, üretilen sayı dizisi de aynı olur. Bu yüzden, tohum değeri program her çalıştığında değişken olmalıdır. Genellikle sistem saatini bu değişken değer olarak kullanırız. Fakat daha fazla rastlantısallığa ihtiyaç duyduğumuz durumlarda, donanım tabanlı rastgele sayı üreteçleri kullanılır ki bunlar, radyo gürültüsü gibi fiziksel rastgele süreçlerden veya klavye ve fare gibi kullanıcı girişlerinden veri alabilirler.
 
