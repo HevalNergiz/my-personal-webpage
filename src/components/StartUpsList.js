@@ -20,7 +20,7 @@ const StartUpsList = () => {
             <span className="badge bg-light">Lead Designer & Web Dev.</span>
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             className="text-decoration-none gap-3 text-muted d-inline-flex w-100 align-items-center justify-content-start"
             href="https://gdsc.community.dev/dokuz-eylul-university/"
@@ -34,7 +34,7 @@ const StartUpsList = () => {
             </span>
             <span className="badge bg-light">Project Coordinator</span>
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
