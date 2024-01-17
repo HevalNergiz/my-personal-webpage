@@ -9,6 +9,7 @@ import {
   IconBrandBootstrap,
   IconBrandSvelte,
   IconBrandTailwind,
+  IconBrandNextjs
 } from "@tabler/icons-react";
 
 const Technologies = () => {
@@ -27,6 +28,10 @@ const Technologies = () => {
         <span className="badge rounded-pill bg-light">
           <IconBrandJavascript stroke={1.5} size={18}></IconBrandJavascript>
           JavaScript
+        </span>
+        <span className="badge rounded-pill bg-light">
+          <IconBrandNextjs stroke={1.5} size={18}></IconBrandNextjs>
+          NextJS
         </span>
         <span className="badge rounded-pill bg-light">
           <IconBrandReact stroke={1.25} size={18}></IconBrandReact>
