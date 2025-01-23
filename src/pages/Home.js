@@ -10,6 +10,7 @@ import Wrapper from "../components/Wrapper";
 import ArticlesList from "../components/ArticlesList";
 import "../assets/css/styles.css";
 import BgImage from "../components/BgImage";
+import ErrorTrigger from "../components/ErrorTrigger";
 
 function Home() {
   return (
