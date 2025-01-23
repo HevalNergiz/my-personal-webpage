@@ -23,6 +23,7 @@ function Home() {
         <ArticlesList></ArticlesList>
         <Footer></Footer>
         <Menu></Menu>
+        <ErrorTrigger></ErrorTrigger>
       </Wrapper>
       <BgImage alt="ephesus" width="100%" height="auto"></BgImage>
     </>
