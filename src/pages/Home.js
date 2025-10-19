@@ -18,7 +18,7 @@ function Home() {
         <Profile></Profile>
         <About></About>
         <Technologies></Technologies>
-        <StartUps></StartUps>
+       
         <StartUpsList></StartUpsList>
         <ArticlesList></ArticlesList>
         <Footer></Footer>
