@@ -6,7 +6,6 @@ import BgImage from "../components/BgImage";
 import Footer from "../components/Footer";
 import Menu from "../components/Menu";
 import Profile from "../components/Profile";
-import StartUps from "../components/StartUps";
 import StartUpsList from "../components/StartUpsList";
 import Technologies from "../components/Technologies";
 import Wrapper from "../components/Wrapper";
@@ -17,8 +16,7 @@ function Home() {
       <Wrapper>
         <Profile></Profile>
         <About></About>
-        <Technologies></Technologies>
-       
+        <Technologies></Technologies>      
         <StartUpsList></StartUpsList>
         <ArticlesList></ArticlesList>
         <Footer></Footer>
